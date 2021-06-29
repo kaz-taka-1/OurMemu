@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/home_text"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/curry"
+        android:title="@string/curry_text" >
+        <menu >
+            <item
+                android:id="@+id/greencurry"
+                android:icon="@drawable/greencurry"
+                android:title="@string/greencurry_text" />
+            <item
+                android:id="@+id/beefcurry"
+                android:icon="@drawable/beefcurry"
+                android:title="@string/beefcurry_text" />
+            <item
+                android:id="@+id/tamoricurry"
+                android:icon="@drawable/tamoricurry"
+                android:title="@string/tanoricurry_text" />
+            <item
+                android:id="@+id/katsucurry"
+                android:icon="@drawable/katsucurry"
+                android:title="@string/katsucurry_text" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/noodle"
+        android:title="@string/noodle_text" >
+        <menu >
+            <item
+                android:id="@+id/soba1"
+                android:icon="@drawable/soba1"
+                android:title="@string/soba1_text" />
+            <item
+                android:id="@+id/soba2"
+                android:icon="@drawable/soba2"
+                android:title="@string/soba2_text" />
+            <item
+                android:id="@+id/ramen1"
+                android:icon="@drawable/ramen1"
+                android:title="@string/ramen1_text" />
+            <item
+                android:id="@+id/ramen2"
+                android:icon="@drawable/ramen2"
+                android:title="@string/ramen2_text" />
+            <item
+                android:id="@+id/nabeyaki"
+                android:icon="@drawable/nabeyaki"
+                android:title="@string/nabeyaki_text" />
+            <item
+                android:id="@+id/udon"
+                android:icon="@drawable/udon"
+                android:title="@string/udon_text" />
+            <item
+                android:id="@+id/hiyashi"
+                android:icon="@drawable/hiyashi"
+                android:title="@string/hiyashi_text" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/stew"
+        android:title="@string/stew_text" >
+        <menu >
+            <item
+                android:id="@+id/oden"
+                android:icon="@drawable/oden"
+                android:title="@string/oden_text" />
+            <item
+                android:id="@+id/osyarenabe"
+                android:icon="@drawable/osyarenabe"
+                android:title="@string/osyarenabe_text" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/etc"
+        android:title="@string/etc_text" >
+        <menu >
+            <item
+                android:id="@+id/beefbowl"
+                android:icon="@drawable/beefbowl"
+                android:title="@string/beefbowl_text" />
+            <item
+                android:id="@+id/peperoncino"
+                android:icon="@drawable/peperoncino"
+                android:title="@string/peperoncino_text" />
+            <item
+                android:id="@+id/hiroshima"
+                android:icon="@drawable/hiroshima"
+                android:title="@string/hiroshima_text" />
+            <item
+                android:id="@+id/hayashi"
+                android:icon="@drawable/hiyashi"
+                android:title="@string/hayashi_text" />
+            <item
+                android:id="@+id/ankake"
+                android:icon="@drawable/ankake"
+                android:title="@string/ankake_text" />
+            <item
+                android:id="@+id/baigai"
+                android:icon="@drawable/baigai"
+                android:title="@string/baigai_text" />
+        </menu>
+    </item>
+</menu>
